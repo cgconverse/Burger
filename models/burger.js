@@ -20,3 +20,6 @@ update: function(objColVals, condition, cb) {
     });
 }
 };
+
+// Exporting the database functions for burgers_controller.js
+module.exports = burger;
