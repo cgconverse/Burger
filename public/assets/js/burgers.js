@@ -10,3 +10,16 @@ $(function() {
         };
         console.log(newEatenState)
         console.log(id)
+
+        // Send the PUT request.
+        $.ajax("/api/burgers/" + id, {
+            type: "PUT",
+            data: newEatenState
+        }).then(
+            function() {
+                console.log("changed eaten to", newEaten);
+                // Reload the page to get the updated list
+                location.reload();
+            }
+        );
+    });
