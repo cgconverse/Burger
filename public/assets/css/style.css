@@ -1,5 +1,6 @@
-body {
-    background-image: url("/images/bobs-burgers.jpg");
+.container {
+    background-image: url("https://github.com/cgconverse/Burger/blob/main/public/images/bobs-burgers.jpg?raw=true");
+    background-color: powderblue;
 }
 
 li {
