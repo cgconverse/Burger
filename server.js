@@ -5,6 +5,8 @@ var app = express();
 
 // Serve static content from the public directory 
 app.use(express.static("public"));
+app.use(express.static("images"));
+
 
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));

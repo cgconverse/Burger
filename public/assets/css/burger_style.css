@@ -1,8 +1,11 @@
+body {
+    background-image: url("/images/bobs-burgers.jpg");
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
-  }
+}
   
   .label {
     font-weight: bold;
