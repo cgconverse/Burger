@@ -14,3 +14,10 @@ router.get("/", function(req, res) {
         res.render("index", hbsObject);
     });
 });
+
+router.post("/api/burgers", function(req, res) {
+    burger.create(["name", "eaten"], [req.body.name, req.body.eaten], function(result) {
+        // Send back the ID of the new burger
+        res.json({ id: result.insertId });
+    });
+});
