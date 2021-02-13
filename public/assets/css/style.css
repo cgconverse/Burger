@@ -1,10 +1,21 @@
 body {
     background-image: url("https://github.com/cgconverse/Burger/blob/main/public/images/bobs-burgers.jpg?raw=true");
     background-color: powderblue;
+    color: indigo;
+}
+
+button {
+  border-radius: 12px;
+  border-color: transparent;
+  background-color: lightpink;
+  color: indigo;
 }
 
 .container {
-  float: right;
+  margin: auto;
+  width: 30%;
+  text-shadow: 2px 2px blanchedalmond;
+  font-weight: bold;
 }
 
 li {
@@ -19,7 +30,6 @@ li {
   .create-update-form {
     padding: 5px;
     margin: 5px;
-    background: aqua;
   }
   
   .form-group {
