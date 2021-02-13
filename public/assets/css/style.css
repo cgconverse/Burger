@@ -3,6 +3,10 @@ body {
     background-color: powderblue;
 }
 
+.container {
+  float: right;
+}
+
 li {
     padding: 5px;
     margin: 5px;
